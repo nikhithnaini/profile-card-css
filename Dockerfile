@@ -1,5 +1,5 @@
 FROM nginx
 MAINTAINER nikhith
-WORKDIR profile-card
+WORKDIR /usr/share/nginx/html/profile-card
 COPY index.html .
 COPY style.css .
