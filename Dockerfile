@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM ngnix
 MAINTAINER nikhith
 WORKDIR profile-card
 COPY index.html .
